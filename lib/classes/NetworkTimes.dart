@@ -1,6 +1,6 @@
 part of neonday_network_ex;
 
-abstract class NetworkTimes {
+class NetworkTimes {
   Duration? connection;
   Duration? beginRequest;
   Duration? beginResponse;
