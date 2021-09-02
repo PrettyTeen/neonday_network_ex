@@ -4,12 +4,16 @@ import 'dart:io';
 
 import 'dart:typed_data';
 
+import 'package:neonday_core/core/main.dart';
+
 part 'classes/BoundAddress.dart';
 part 'classes/IPacket.dart';
 part 'classes/IPacketIdentifier.dart';
 part 'classes/IPacketModel.dart';
+part 'classes/IRequestResult.dart';
 part 'classes/NetworkEx.dart';
 part 'classes/NetworkTimeouts.dart';
+part 'classes/NetworkTimes.dart';
 
 
 part 'features/BufferPointer.dart';
