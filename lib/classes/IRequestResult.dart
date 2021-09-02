@@ -1,7 +1,10 @@
 part of neonday_network_ex;
 
 abstract class IRequestResult {
-  late NetworkTimes timings;
+  NetworkTimes get timings;
 
-  late INotifier<bool> connectedState;
+  
+  bool get connected;
+
+  INotifier<bool> get connectedState;
 }
