@@ -1,5 +1,6 @@
 part of neonday_network_ex;
 
+@Deprecated("Need to review")
 class PacketDissector<T extends IPacket> {
   final List<T> _packets = [];
 

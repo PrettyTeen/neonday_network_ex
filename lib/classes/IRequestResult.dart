@@ -1,5 +1,6 @@
 part of neonday_network_ex;
 
+@Deprecated("")
 abstract class IRequestResult {
   NetworkTimes get timings;
 

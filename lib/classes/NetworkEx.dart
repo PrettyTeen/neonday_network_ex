@@ -1,5 +1,6 @@
 part of neonday_network_ex;
 
+@Deprecated("Need to review")
 abstract class NetworkEx {
   
   static Future<void> getAvailableAddresses(

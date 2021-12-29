@@ -13,12 +13,14 @@ part of neonday_network_ex;
 // - checksum checks length+data
 //==========================================================================\\
 
+@Deprecated("Need to review")
 class _Level0 {
   int? checksum;
   int? payloadLength;
 }
 
 ///TODO REWRITE
+@Deprecated("Need to review")
 abstract class IPacketModel extends IPacket {
   final _Level0 level0 = new _Level0();
 

@@ -1,5 +1,6 @@
 part of neonday_network_ex;
 
+@Deprecated("Need to review")
 class _ByteBuilder {
   int length = 0;
   List<List<int>> _chunks = [];

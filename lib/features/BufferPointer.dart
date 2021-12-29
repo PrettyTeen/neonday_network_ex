@@ -1,6 +1,7 @@
 part of neonday_network_ex;
 
 /// TODO REWRITE
+@Deprecated("Need to review")
 class BufferPointer {
   final _ByteBuilder _builder = new _ByteBuilder();
   final ByteData? _byteData;

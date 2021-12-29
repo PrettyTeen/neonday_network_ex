@@ -1,5 +1,6 @@
 part of neonday_network_ex;
 
+@Deprecated("Need to review")
 abstract class IPacket {
   final BufferPointer pointer;
   IPacket.construct() : pointer = BufferPointer.construct();

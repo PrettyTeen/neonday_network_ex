@@ -1,5 +1,6 @@
 part of neonday_network_ex;
 
+@Deprecated("Need to review")
 abstract class DataConverter {
   static const int MASK_UINT32    = 0x00000000FFFFFFFF;
   static const int MASK_UINT16    = 0x000000000000FFFF;
