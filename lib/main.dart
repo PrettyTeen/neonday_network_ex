@@ -4,7 +4,7 @@ import 'dart:io';
 
 import 'dart:typed_data';
 
-import 'package:core/core/library.dart';
+import 'package:true_core/core/library.dart';
 
 part 'classes/BoundAddress.dart';
 part 'classes/IPacket.dart';
